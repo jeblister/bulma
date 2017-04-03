@@ -1,10 +1,10 @@
-+++
-date = "2017-04-01T14:19:25+01:00"
-title = "bulma theme"
-draft = false
-menu = "main"
-weight = 3
-+++
+---
+date : "2017-04-01T14:19:25+01:00"
+title : "bulma theme"
+draft : false
+menu : "main"
+weight : 3
+---
 
 
 # Bulma Theme for Hugo
