@@ -1,0 +1,21 @@
+{{ if .Site.Params.powered_by }}
+<footer class="footer">
+    <div class="container">
+        <div class="content has-text-centered">
+            <p>
+                This page was generated using this template
+    <a target="_blank" rel="noopener" href="https://jeblister.github.io/bulma/">Bulma</a>
+    using
+    <a target="_blank" rel="noopener" href="https://gohugo.io/">Hugo</a>.
+    and build by <strong>{{.Site.Params.powered_by}}</strong>
+            </p>
+            <p>
+                <a class="icon" href="https://github.com/jeblister/bulma">
+                    <i class="fa fa-github"></i>
+                </a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+{{ end }}

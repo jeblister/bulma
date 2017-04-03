@@ -1,0 +1,41 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "menu" .}} {{end}} 
+
+{{ define "main" }}
+
+<div class="columns is-fullheight">
+    <div class="column left-side is-half-desktop is-hidden-touch">
+        <section class="hero is-fullheight is-default is-bold">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="title is-1">{{ .Title }}</div>
+                    <div class="title is-5">A blog about stuff</div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="column right-side is-half-desktop is-full-mobile">
+
+        <section class="hero is-fullheight is-default is-bold">
+            <div class="hero-body">
+                <div class="container">
+                  {{ range (.Paginate (where .Data.Pages "Type" "post")).Pages }} 
+                    {{ partial "page-summary" . }} 
+                  {{ end }}
+                </div>
+            </div>
+
+            <div class="hero-foot">
+                <div class="tabs is-centered">
+                    <ul>
+                    {{ partial "pagination" . }}
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+{{ end }} 
+
+{{ define "footer" }} {{ partial "footer" .}} {{ end }}
