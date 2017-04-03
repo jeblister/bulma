@@ -6,15 +6,15 @@
 
     var $codes = document.querySelectorAll('pre');
 
-    function someFn(element) {
+    function addCopy(element) {
         var copy = document.createElement("button");
-        copy.className = "copy button";
+        copy.className = "copy button is-pulled-right";
         copy.textContent = "copy";
         element.append(copy);
     }
 
     for (var i = 0, len = $codes.length; i < len; i++) {
-        someFn($codes[i]);
+        addCopy($codes[i]);
     }
 
 
