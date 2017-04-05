@@ -32,11 +32,11 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> {{ if .Site.Params.theme_variant }}
     <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/{{.Site.Params.theme_variant}}/bulmaswatch.min.css"> {{else}}
-    <link rel="stylesheet" href="{{ .Site.BaseURL}}/css/bulma.css"> {{end}}
-    <link rel="stylesheet" href="{{ .Site.BaseURL}}/css/landing.css"> {{ block "style" .}} {{end}} {{ $lazylist := findRE "class=\".*?\\blazyload\\b.*?\"|class=lazyload\b" .Content }}
+    <link rel="stylesheet" href="/css/bulma.css"> {{end}}
+    <link rel="stylesheet" href="/css/landing.css"> {{ block "style" .}} {{end}} {{ $lazylist := findRE "class=\".*?\\blazyload\\b.*?\"|class=lazyload\b" .Content }}
     <!-- http://regexr.com/3f9d1 -->
     {{ if ge (len $lazylist) 1 }}
-    <script async src="{{ .Site.BaseURL}}/js/lazysizes.min.js"></script>
+    <script async src="/js/lazysizes.min.js"></script>
     {{ end }}
 </head>
 <!--theme variation-->
@@ -46,9 +46,9 @@
     <main>{{ block "main" . }}{{ end }}</main>
     <footer>{{ block "footer" . }}{{ end }}</footer>
 
-    <script async type="text/javascript" src="{{ .Site.BaseURL}}/js/bulma.js"></script>
-    <script async type="text/javascript"  src="{{ .Site.BaseURL }}/js/clipboard.min.js"></script>
-    <script async type="text/javascript"  src="{{ .Site.BaseURL }}/js/clip.js"></script>
+    <script async type="text/javascript" src="/js/bulma.js"></script>
+    <script async type="text/javascript"  src="/js/clipboard.min.js"></script>
+    <script async type="text/javascript"  src="/js/clip.js"></script>
 </body>
 
 </html>
