@@ -1,3 +1,12 @@
++++
+date = "2017-04-01T14:19:25+01:00"
+title = "bulma theme"
+draft = false
+menu = "main"
+weight = 3
++++
+
+
 # Bulma Theme for Hugo
 
 `Bulma` is a simple and a responsive Hugo theme that offers a traditional blog mixed with a landing page designed to bootstrap your frontend!.
@@ -28,7 +37,6 @@ To see this theme in action, check out my [blog](http://blog.elemnts.org) which 
 - SEO Site Verification : Site verification with Google, Bing Alexa and Yandex
 - Media lazy loading : Intelligent Lazyloading for images and iFrame embeds
 - Syntax Highlighting : Provide a richer experience when sharing code snippets on your post. 
-- Clipboard.js addons : copy any code text to the clipboard.
 - 404 page : 404 page with animated background
 
 ## Installation
@@ -51,7 +59,7 @@ cp themes/bulma/archetypes/* archetypes
 Finally, include the settings in your site's `config.toml`:
 
 ```toml
-baseurl = "/" # Controls base URL
+baseurl = "https://blog.elemnts.org" # Controls base URL
 languageCode = "en-US" # Controls html lang attribute
 title = "bulma for Hugo Site" # Homepage title and page title suffix
 paginate = 5 # Number of posts to show before paginating
@@ -68,7 +76,7 @@ SectionPagesMenu = "main" # Enable menu system for lazy bloggers
   powered_by = "" # Optional, controls name display on footer
   hide_author = false # Optional, set true to hide author name on posts
   images = [] # Suggested, controls default OpenGraph images
-  controls author name display on meta tag
+  theme_variant = "" # Optional, for use to   author = "" # Optional, controls author name display on meta tag
   github = "" # Optional, to display link to github account in menu bar
   twitter = "" # Optional, to display link to twitter account in menu bar
 ```
