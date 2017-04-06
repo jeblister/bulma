@@ -48,32 +48,19 @@ Copy custom archetypes to your site:
 cp themes/bulma/archetypes/* archetypes
 ```
 
-Finally, include the settings in your site's `config.toml`:
 
-```toml
-baseurl = "/" # Controls base URL
-languageCode = "en-US" # Controls html lang attribute
-title = "bulma for Hugo Site" # Homepage title and page title suffix
-paginate = 5 # Number of posts to show before paginating
-theme = "bulma" # to use as default theme
+Next, take a look in the `exampleSite` folder at. This directory contains an example config file and the content for the demo. It serves as an example setup for your blog. 
 
-enableRobotsTXT = true # Suggested, it generates a robots.txt
-googleAnalytics = "" # Optional, add tracking Id for analytics
-disqusShortname = "" # Optional, add Disqus shortname for comments
-SectionPagesMenu = "main" # Enable menu system for lazy bloggers
+Copy at least the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary. 
 
-[params]
-  theme_variant = "" # possible value for the theme_variant `cerulean,cosmo,cyborg,darkly,flatly,journal,litera,lumen,lux,materia,minty,pulse,sandstone,simplex,slate,solar,spacelab,superhero,united,yeti`
-  description = "" # Suggested, controls default description meta and landing page
-  powered_by = "" # Optional, controls name display on footer
-  hide_author = false # Optional, set true to hide author name on posts
-  images = [] # Suggested, controls default OpenGraph images
-  controls author name display on meta tag
-  github = "" # Optional, to display link to github account in menu bar
-  twitter = "" # Optional, to display link to twitter account in menu bar
+Hugo includes a development server, so you can view your changes as you go :
+
+``` sh
+hugo server -w
 ```
 
-That's it! Everything else is optional.
+Now you can go to [localhost:1313](http://localhost:1313) and the `bulma`
+theme should be visible.
 
 
 ## Getting Started
