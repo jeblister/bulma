@@ -5,7 +5,7 @@ name = "Bulma"
 license = "MIT"
 licenselink = "https://github.com/jeblister/bulma/master/LICENSE.md"
 description = "Bulma is a simple and a responsive Hugo theme that offers a traditional blog mixed with a landing page."
-homepage = "http://bulma.elemnts.org/"
+homepage = "http://blog.elemnts.org/"
 tags = ["responsive", "bulma", "landing", "blog", "themes", "flexbox", "modern"]
 features = ["landing","Mobile-first Design",
   "Responsive Design",
