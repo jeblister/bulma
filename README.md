@@ -242,11 +242,11 @@ There's only one rule...there are no rules.
 MIT
 
 ## Credit 
-[bulma-templates]: (https://dansup.github.io/bulma-templates/)
-[after dark]: (https://github.com/comfusion/after-dark)
-[lazysizes]: (https://github.com/aFarkas/lazysizes)
-[bulmaswatch] : (https://jenil.github.io/bulmaswatch/) 
-[images] : https://images.unsplash.com
+- [bulma-templates]: (https://dansup.github.io/bulma-templates/)
+- [after dark]: (https://github.com/comfusion/after-dark)
+- [lazysizes]: (https://github.com/aFarkas/lazysizes)
+- [bulmaswatch] : (https://jenil.github.io/bulmaswatch/) 
+- [images] : https://images.unsplash.com
 
 ## Contact
 
