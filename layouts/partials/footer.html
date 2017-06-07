@@ -1,21 +1,21 @@
 {{ if .Site.Params.powered_by }}
-<footer class="footer">
+<div class="hero-foot">
     <div class="container">
-        <div class="content has-text-centered">
-            <p>
+        <div class="tabs is-centered">
+            <ul>
                 This page was generated using this template
-    <a target="_blank" rel="noopener" href="https://jeblister.github.io/bulma/">Bulma</a>
-    using
-    <a target="_blank" rel="noopener" href="https://gohugo.io/">Hugo</a>.
-    and build by <strong>{{.Site.Params.powered_by}}</strong>
-            </p>
-            <p>
-                <a class="icon" href="https://github.com/jeblister/bulma">
+                <li> <a class="button button is-link" class="link" target="_blank" rel="noopener" href="https://jeblister.github.io/bulma/">Bulma</a></li>
+                using 
+                <li> <a class="button button is-link" target="_blank" rel="noopener" href="https://gohugo.io/">Hugo</a></li>
+                and build by
+                <strong>&nbsp;{{.Site.Params.powered_by}}</strong>
+                <li> <a class="icon" href="https://github.com/jeblister/bulma">
+              
                     <i class="fa fa-github"></i>
-                </a>
-            </p>
+                </a></li>
+            </ul>
+            
         </div>
     </div>
-</footer>
-
+</div>
 {{ end }}

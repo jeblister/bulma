@@ -3,6 +3,9 @@
 
 {{ define "main" }}
 
+<section class="hero is-fullheight is-dark">
+
+
     <div class="hero-body">
       <div class="container has-text-centered">
         <div class="columns is-vcentered">
@@ -19,19 +22,18 @@
               {{ .Site.Params.description}}
             </h2>
             <br>
-            <div class="field has-addons">
-            <p class="control is-expanded">
-              <input class="input is-large" type="text" placeholder="Join the beta waitlist, you@example.org">
-            </p>
-            <p class="control">
+            <p class="control has-addons has-text-centered">
+              <input class="input is-expanded is-large" type="text" placeholder="Join the beta waitlist, you@example.org">
               <a class="button is-large is-danger is-outlined">
                 Sign Up
               </a>
             </p>
-            </div>
           </div>
         </div>
       </div>
     </div>
+</div>
+
 {{ end }} 
+
 {{ define "footer" }} {{ partial "footer" .}} {{ end }}

@@ -26,16 +26,7 @@ body {
   padding: 10px 20px;
   height: 45px;
 }
-.nav-toggle {
-    padding-right: 2rem;
-}
 .promo-img {
   border-radius: 10px;
   border: 10px solid #fff;
-}
-.button {
-  height: 2.3em; }
-
-.button {
-  border-width: 1px 1px 1px 1px;
 }
