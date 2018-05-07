@@ -65,10 +65,10 @@ theme should be visible.
 
 ## Getting Started
 
-There are a few concepts this theme employs to make a personal blog. It's important to read this as you may not see what you expect upon launching. Since this theme is built to be a personal blog it opts for some simplifications like using the ["Section Menu for the Lazy Blogger"](https://gohugo.io/extras/menus/#section-menu-for-the-lazy-blogger) option in Hugo for displaying a simple menu. It assumes you want to call your blog posts `post` and organizes them as such. For example, creating a new post with Hugo would require you typing:
+There are a few concepts this theme employs to make a personal blog. It's important to read this as you may not see what you expect upon launching. Since this theme is built to be a personal blog it opts for some simplifications like using the ["Section Menu for the Lazy Blogger"](https://gohugo.io/extras/menus/#section-menu-for-the-lazy-blogger) option in Hugo for displaying a simple menu. It assumes you want to call your blog posts `posts` and organizes them as such. For example, creating a new post with Hugo would require you typing:
 
 ```
-  $ hugo new post/my-new-post.md
+  $ hugo new posts/my-new-post.md
 
 ```
 
@@ -78,7 +78,7 @@ It also assumes you want to display links to your sections of content `posts`and
 
 #### Where should blog post markdown files be stored?
 
-The theme works with other content types, but posts work best when grouped under `post`. When using the `post` content type you'll have a customized list page sorted by year and the default list page. Here's an example:
+The theme works with other content types, but posts work best when grouped under `posts`. When using the `posts` content type you'll have a customized list page sorted by year and the default list page. Here's an example:
 
 ![Custom List Page](https://cldup.com/y61NIUWHTR.png)
 
@@ -102,7 +102,7 @@ You can then control the name and weight of these menus in your `config.toml` by
   name = "Posts"
   weight = 1
 	identifier = "posts"
-  url = "/post/"
+  url = "/posts/"
 ```
 
 **Recommendation:** Add `SectionPagesMenu` to your `config.toml` file.  
