@@ -244,7 +244,7 @@ MIT
 ## Credit 
 - [bulma-templates](https://dansup.github.io/bulma-templates/)
 
-- [after dark](https://github.com/comfusion/after-dark)
+- [after dark](https://after-dark.habd.as) - base templates and core features
 
 - [lazysizes](https://github.com/aFarkas/lazysizes)
 
