@@ -33,4 +33,4 @@ min_version = 0.19
 [original]
   name = "After Dark"
   homepage = "https://after-dark.habd.as"
-  repo = "https://git.habd.as/after-dark/"
+  repo = "https://git.habd.as/comfusion/after-dark"
