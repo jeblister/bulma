@@ -32,5 +32,5 @@ min_version = 0.19
 # If porting an existing theme
 [original]
   name = "After Dark"
-  homepage = "https://comfusion.github.io/after-dark/"
-  repo = "http://themes.gohugo.io/after-dark/"
+  homepage = "https://after-dark.habd.as"
+  repo = "https://git.habd.as/comfusion/after-dark"
